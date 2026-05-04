@@ -1,0 +1,86 @@
+⚠ Port 3000 is in use by process 30640, using available port 3001 instead.
+[browser] Uncaught ReferenceError: Shield is not defined
+    at ConfirmScreen (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/components_RemittancePrototype_tsx_02tiu8g._.js?id=%255Bproject%255D%252Fcomponents%252FRemittancePrototype.tsx+%255Bapp-client%255D+%2528ecmascript%2529:1505:264)
+    at Object.react_stack_bottom_frame (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooks (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4620:24)
+    at updateFunctionComponent (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6081:21)
+    at beginWork (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6691:24)
+    at runWithFiberInDEV (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at processRootScheduleInMicrotask (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10200:106)
+    at <unknown> (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10274:158)
+    at RemittancePrototype (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/components_RemittancePrototype_tsx_02tiu8g._.js?id=%255Bproject%255D%252Fcomponents%252FRemittancePrototype.tsx+%255Bapp-client%255D+%2528ecmascript%2529:2924:237)
+    at Home (app\page.tsx:4:10)
+  2 |
+  3 | export default function Home() {
+> 4 |   return <RemittancePrototype />;
+    |          ^
+  5 | }
+  6 |
+⨯ ReferenceError: Shield is not defined
+    at ConfirmScreen (components\RemittancePrototype.tsx:514:20)
+  512 |               <div className="flex items-center gap-3 text-xs text-gray-500">
+  513 |                 <span className="flex items-center gap-1">
+> 514 |                   <Shield size={11} className="text-orange-500" />
+      |                    ^
+  515 |                   Locked rate AED {GOLD_RATE}/gm
+  516 |                 </span>
+  517 |                 <span className="flex items-center gap-1"> {
+  digest: '411590107'
+}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Uncaught ReferenceError: Shield is not defined
+    at ConfirmScreen (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/components_RemittancePrototype_tsx_02tiu8g._.js?id=%255Bproject%255D%252Fcomponents%252FRemittancePrototype.tsx+%255Bapp-client%255D+%2528ecmascript%2529:1490:264)
+    at Object.react_stack_bottom_frame (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooks (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4620:24)
+    at updateFunctionComponent (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6081:21)
+    at beginWork (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6691:24)
+    at runWithFiberInDEV (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9098:47)
+    at performSyncWorkOnRoot (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at flushSyncWork$1 (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9230:86)
+    at Object.scheduleRefresh (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:299:13)
+    at <unknown> (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:391:33)
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:384:38)
+    at applyUpdate (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:878:31)
+    at <unknown> (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:886:13)
+    at RemittancePrototype (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/components_RemittancePrototype_tsx_02tiu8g._.js?id=%255Bproject%255D%252Fcomponents%252FRemittancePrototype.tsx+%255Bapp-client%255D+%2528ecmascript%2529:2908:237)
+    at Home (app\page.tsx:4:10)
+  2 |
+  3 | export default function Home() {
+> 4 |   return <RemittancePrototype />;
+    |          ^
+  5 | }
+  6 |
+[browser] Uncaught ReferenceError: Shield is not defined
+    at ConfirmScreen (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/components_RemittancePrototype_tsx_02tiu8g._.js:1491:264)
+    at Object.react_stack_bottom_frame (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooks (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4620:24)
+    at updateFunctionComponent (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6081:21)
+    at beginWork (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6691:24)
+    at runWithFiberInDEV (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9098:47)
+    at performWorkOnRootViaSchedulerTask (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64)
+    at RemittancePrototype (file://C:/Prototype World/botim_remittance_xsell/.next/dev/static/chunks/components_RemittancePrototype_tsx_02tiu8g._.js:2909:237)
+    at Home (app\page.tsx:4:10)
+  2 |
+  3 | export default function Home() {
+> 4 |   return <RemittancePrototype />;
+    |          ^
+  5 | }
+  6 |
+⚠ Fast Refresh had to perform a full reload due to a runtime error.

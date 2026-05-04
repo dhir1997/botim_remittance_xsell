@@ -1,0 +1,54 @@
+
+> botim_remittance_xsell@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.82.103:3001
+✓ Ready in 7.6s
+
+○ Compiling / ...
+ GET / 200 in 10.9s (next.js: 10.7s, application-code: 186ms)
+ GET / 200 in 117ms (next.js: 13ms, application-code: 104ms)
+✓ Compiled in 118ms
+ GET / 200 in 773ms (next.js: 673ms, application-code: 99ms)
+✓ Compiled in 42ms
+ GET / 200 in 87ms (next.js: 54ms, application-code: 32ms)
+✓ Compiled in 114ms
+ GET / 200 in 90ms (next.js: 59ms, application-code: 31ms)
+✓ Compiled in 42ms
+ GET / 200 in 80ms (next.js: 53ms, application-code: 27ms)
+✓ Compiled in 41ms
+ GET / 200 in 89ms (next.js: 61ms, application-code: 28ms)
+✓ Compiled in 249ms
+ GET / 200 in 153ms (next.js: 108ms, application-code: 45ms)
+ GET / 200 in 50ms (next.js: 3ms, application-code: 47ms)
+ GET / 200 in 36ms (next.js: 3ms, application-code: 33ms)
+✓ Compiled in 151ms
+ GET / 200 in 104ms (next.js: 57ms, application-code: 48ms)
+ GET / 200 in 54ms (next.js: 4ms, application-code: 49ms)
+ GET / 200 in 33ms (next.js: 8ms, application-code: 25ms)
+✓ Compiled in 201ms
+✓ Compiled in 44ms
+ GET / 500 in 352ms (next.js: 55ms, application-code: 297ms)
+✓ Compiled in 170ms
+ GET / 200 in 1051ms (next.js: 656ms, application-code: 395ms)
+ GET / 200 in 60ms (next.js: 6ms, application-code: 54ms)
+✓ Compiled in 39ms
+ GET / 200 in 77ms (next.js: 47ms, application-code: 30ms)
+✓ Compiled in 74ms
+ GET / 200 in 84ms (next.js: 55ms, application-code: 29ms)
+ GET / 200 in 42ms (next.js: 27ms, application-code: 15ms)
+✓ Compiled in 78ms
+✓ Compiled in 40ms
+ GET / 200 in 54ms (next.js: 36ms, application-code: 18ms)
+ GET / 200 in 39ms (next.js: 27ms, application-code: 12ms)
+✓ Compiled in 50ms
+✓ Compiled in 42ms
+ GET / 200 in 46ms (next.js: 27ms, application-code: 19ms)
+✓ Compiled in 62ms
+ GET / 200 in 48ms (next.js: 33ms, application-code: 15ms)
+✓ Compiled in 64ms
+ GET / 200 in 55ms (next.js: 33ms, application-code: 23ms)
+✓ Compiled in 53ms
+ GET / 200 in 40ms (next.js: 28ms, application-code: 12ms)
